@@ -34,13 +34,16 @@ Nachdem du ein Repo für ein konkretes Datum anhand von diesem Template erstellt
 ## M001 | GETTING STARTED
 
 - [ ] Folien: ANGULAR.pdf > Intro
-- [ ] Demo:
-- [ ] Lab:
-- [ ] Commit:
+- [ ] Demo: [ng12-app/src/app/app.module.ts](TRAINER/ng12-app/src/app/app.module.ts)
+- [ ] Commit: [m001 create default app](https://github.com/ppedvAG/2021-08-19-angular/commit/e5f384452f947d6ed26cb4de98909018c637b321)
 
-## MXXX | `name vom modul`
+## M002 | NG APP PROJECT
 
 - [ ] Folien:
+  - [ ] > project structure
 - [ ] Demo:
 - [ ] Lab:
 - [ ] Commit:
+
+Aufgabe:
+Erstellen Sie eine neue Komponente 'root'. Binden Sie diese in die Anwendung anstatt von der Komponente 'App' ein.
