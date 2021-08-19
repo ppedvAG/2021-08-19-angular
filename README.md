@@ -41,9 +41,14 @@ Nachdem du ein Repo für ein konkretes Datum anhand von diesem Template erstellt
 
 - [ ] Folien:
   - [ ] > project structure
+  - [ ] > ecosystem
 - [ ] Demo:
 - [ ] Lab:
 - [ ] Commit:
 
 Aufgabe:
 Erstellen Sie eine neue Komponente 'root'. Binden Sie diese in die Anwendung anstatt von der Komponente 'App' ein.
+
+## M003 | NG MODULE
+
+## M004 | NG COMPONENT
