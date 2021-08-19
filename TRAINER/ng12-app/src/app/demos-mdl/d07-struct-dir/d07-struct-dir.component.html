@@ -1,0 +1,20 @@
+<h3>D07-STRUCT-DIR</h3>
+
+<h4>ng for</h4>
+<ul>
+  <li *ngFor="let item of myArray">{{item}}</li>
+</ul>
+<hr>
+
+<h4>ng if</h4>
+<p *ngIf="true">Hinweis</p>
+<p *ngIf="false">Warnung</p>
+<hr>
+
+<h4>ng if + ng template</h4>
+<p *ngIf="true else option">Erfolg</p>
+<ng-template #option>option wenn false</ng-template>
+<!-- <ng-template [ngTemplateOutlet]="outlet" [ngOutletContext]="context"></ng-template> -->
+
+
+

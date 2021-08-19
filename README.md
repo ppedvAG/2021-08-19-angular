@@ -56,3 +56,7 @@ Erstellen Sie eine neue Komponente 'root'. Binden Sie diese in die Anwendung ans
 ## M005 | COMPONENT LIFECYCLE
 
 ## M006 | ROUTING
+
+## M007 | STRUCTURAL DIRECTIVES
+
+## M008 | ATTRIBUTE DIRECTIVES
