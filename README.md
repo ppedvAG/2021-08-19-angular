@@ -29,13 +29,11 @@ Nachdem du ein Repo für ein konkretes Datum anhand von diesem Template erstellt
 ## M000 | WARMING UP
 
 - [ ] Folien: Greeter.pdf
-- [ ] Demo: [platzhalter.md](m000/platzhalter.md)
-- [ ] Lab:
 - [ ] Commit:
   
 ## M001 | GETTING STARTED
 
-- [ ] Folien: DeinThema.pdf > Intro
+- [ ] Folien: ANGULAR.pdf > Intro
 - [ ] Demo:
 - [ ] Lab:
 - [ ] Commit:

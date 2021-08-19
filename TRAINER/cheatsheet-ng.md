@@ -1,0 +1,4 @@
+# ANGULAR SPICKZETTEL
+
+## NG CLI
+
