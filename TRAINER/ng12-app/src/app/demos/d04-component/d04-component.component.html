@@ -1,0 +1,40 @@
+<h3>D04-COMPONENT</h3>
+
+<h4>Property Binding</h4>
+<pre>
+  durch doppelte geschweifte werden die public props aus der komponente angezeigt
+
+  In der Komponente eine Ebene höher ist diese Prop nicht sichtbar
+</pre>
+{{classProp1}}
+{{classProp2}}
+<hr>
+
+<h4>Template Variables</h4>
+<pre>
+  Wert solcher Variablen sind Elemente, bei denen diese Variablen angelegt wurden
+</pre>
+<p #myParID>ein paragraph {{myParID}}</p>
+<hr>
+
+<h4>Interpolation</h4>
+<pre>
+  keine beliebigen JS-Ausdrücke in den doppelten geschw.
+  nur die Props aus der Klasse, oder ihre Methoden
+</pre>
+<!-- <p>{{new Date()}}</p> -->
+<p>{{classMethod1()}}</p>
+<hr>
+
+<h4>Stile einer Komponente</h4>
+<pre>
+  über Selektor :host kann die Komponente selbst in ihrer CSS-Datei angesprochen werden
+  default Wert bei display bei Komponenten ist 'inline'
+</pre>
+<hr>
+
+<h4>Klassen bei HTML-Attributen</h4>
+<p class={{giveClass()}}>text mit evtl blauem Hintergrund</p>
+<p [className]="giveClass()">text mit evtl blauem Hintergrund</p>
+
+

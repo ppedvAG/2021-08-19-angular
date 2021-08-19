@@ -1,0 +1,13 @@
+:host {
+  display: block;
+  /* default bei Komponenten ist inline */
+  border: thick solid seagreen;
+}
+
+h4 {
+  text-decoration: underline;
+}
+
+.blueBackground {
+  background-color: lightblue;
+}
