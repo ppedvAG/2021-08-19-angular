@@ -8,12 +8,13 @@ import { DateTimeComponent } from '../date-time/date-time.component';
 })
 export class OverviewTodosComponent implements OnInit {
 
-  // myDateTime: any;
+  myDateTime: any;
 
   constructor() { }
 
   ngOnInit(): void {
-    // this.myDateTime = new DateTimeComponent();
+    this.myDateTime = new DateTimeComponent();
+    console.log('this.myDateTime :>> ', this.myDateTime);
   }
 
 /*   destroyDateTime() {

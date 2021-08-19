@@ -15,7 +15,6 @@ export class DateTimeComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-    // setInterval(this.tick, 1000)
     this.intervalId = setInterval(() => {this.tick()}, 1000)
   }
 

@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { OverviewDemosComponent } from './overview-demos/overview-demos.component';
 import { D04ComponentComponent } from './d04-component/d04-component.component';
 import { D05LifecycleComponent } from './d05-lifecycle/d05-lifecycle.component';
+import { AppRoutingModule } from '../app-routing.module';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { D05LifecycleComponent } from './d05-lifecycle/d05-lifecycle.component';
     D05LifecycleComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    AppRoutingModule
   ],
   exports: [
     OverviewDemosComponent
