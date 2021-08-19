@@ -23,6 +23,4 @@ export class D04ComponentComponent
       return '';
     }
   }
-
-
 }

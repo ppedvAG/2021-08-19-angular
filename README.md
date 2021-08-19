@@ -52,3 +52,5 @@ Erstellen Sie eine neue Komponente 'root'. Binden Sie diese in die Anwendung ans
 ## M003 | NG MODULE
 
 ## M004 | NG COMPONENT
+
+## M005 | COMPONENT LIFECYCLE
