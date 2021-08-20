@@ -1,0 +1,35 @@
+<p>pw-confirm works!</p>
+
+<input ngModel #myInput="ngModel" type="text" required>
+<p>ist input valide: {{myInput.valid}}</p>
+
+<!--
+Wir setzen eine Passwortbestätigung um:
+
+•Es soll zwei Eingabefelder geben, deren Inhalt wir mit ngModel überwachen.
+
+•Solange die Eingabefelder unterschiedliche Werte haben,
+soll der zugehörige OK-Button auf disabled gesetzt sein
+und darunter (in einem extra <div>) eine Warnung angezeigt werden 'Die Eingaben stimmen nicht überein'.
+ -->
+
+<!-- <input ngModel #myInput1="ngModel" type="text">
+<input ngModel #myInput1="ngModel" type="text"> -->
+<input ngModel #myInput1="ngModel" type="password">
+<input ngModel #myInput2="ngModel" type="password">
+
+<button [disabled]="(myInput1.value !== myInput2.value || myInput1.pristine)">button</button>
+
+<!-- Variante 2 -->
+<input id="1" type="text" (input)="handleInput($event)">
+<input id="2" type="text" (input)="handleInput($event)">
+<button [disabled]="(myInput1.value !== myInput2.value || myInput1.pristine)">button</button>
+
+<h3> Variante 3 </h3>
+<pre>
+  ngModel.value wird mit einer Prop synchronisiert
+</pre>
+<input [(ngModel)]="inp1"  type="text">
+<p>{{inp1}}</p>
+<input [(ngModel)]="inp2"  type="text">
+<p>{{inp2}}</p>

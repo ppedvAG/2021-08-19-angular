@@ -4,6 +4,8 @@ import { OverviewTodosComponent } from './overview-todos/overview-todos.componen
 import { TodoComponent } from './todo/todo.component';
 import { DateTimeComponent } from './date-time/date-time.component';
 import { TodosTableComponent } from './todos-table/todos-table.component';
+import { PwConfirmComponent } from './pw-confirm/pw-confirm.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -12,10 +14,12 @@ import { TodosTableComponent } from './todos-table/todos-table.component';
     OverviewTodosComponent,
     TodoComponent,
     DateTimeComponent,
-    TodosTableComponent
+    TodosTableComponent,
+    PwConfirmComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   exports: [
     OverviewTodosComponent
