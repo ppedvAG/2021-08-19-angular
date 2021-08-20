@@ -1,0 +1,24 @@
+<p>d09-events works!</p>
+<h2>ÜBUNG MOUSEENTER MOUSELEAVE</h2>
+
+<p [class]="isHome ? 'home' : 'away'" (mouseenter)="home()" (mouseleave)="away()">{{isHome ? 'home' : 'away'}}</p>
+<hr>
+
+<h2>ÜBUNG CLICK COUNTER</h2>
+
+<button (click)="handleClick()">{{counter}}</button>
+
+<h2>Bsp 3</h2>
+<button (click)="produceAlert()">alert</button>
+
+<h2>Bsp 4</h2>
+<button (click)="showEventObject($event)">{{eventTarget}}</button>
+
+<h2>Bsp 5</h2>
+<input type="number" (input)="changeSize($event)">
+<!-- <input type="number" (input)="changeSize(20)"> -->
+<div [style.font-size.px]="size">
+  Hello, World!
+</div>
+
+

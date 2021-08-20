@@ -61,9 +61,11 @@ Erstellen Sie eine neue Komponente 'root'. Binden Sie diese in die Anwendung ans
 
 ## M008 | ATTRIBUTE DIRECTIVES
 
-## outputs
+## M009 | EVENTS
 
-## events + forms
++ forms
+
+## outputs
 
 ## pipes
 

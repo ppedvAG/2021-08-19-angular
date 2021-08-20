@@ -12,6 +12,8 @@ export class D04ComponentComponent
   classProp1 = 'classPropValue';
   classProp2 = 7;
 
+  isHome: boolean = true;
+
   classMethod1() {
     return 'return from classMethod1';
   }
