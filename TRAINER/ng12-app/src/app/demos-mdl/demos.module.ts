@@ -8,6 +8,8 @@ import { D07StructDirComponent } from './d07-struct-dir/d07-struct-dir.component
 import { D08AttrDirComponent } from './d08-attr-dir/d08-attr-dir.component';
 import { D09EventsComponent } from './d09-events/d09-events.component';
 import { D11OutputsComponent, D11OutputsComponentChild } from './d11-outputs/d11-outputs.component';
+import { D13PipesComponent } from './d13-pipes/d13-pipes.component';
+import { D13MyPipePipe } from './d13-pipes/d13-my-pipe.pipe';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { D11OutputsComponent, D11OutputsComponentChild } from './d11-outputs/d11
     D08AttrDirComponent,
     D09EventsComponent,
     D11OutputsComponent,
-    D11OutputsComponentChild
+    D11OutputsComponentChild,
+    D13PipesComponent,
+    D13MyPipePipe
   ],
   imports: [
     CommonModule,

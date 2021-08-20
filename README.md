@@ -63,11 +63,13 @@ Erstellen Sie eine neue Komponente 'root'. Binden Sie diese in die Anwendung ans
 
 ## M009 | EVENTS
 
-+ forms
+## M010 | FORMS
 
-## outputs
+## M011 | OUTPUTS
 
-## pipes
+## M012 | Debugging
+
+## M013 | PIPES
 
 ## httpclient + service + rxjs
 
