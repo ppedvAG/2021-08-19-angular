@@ -1,1 +1,18 @@
-<p>todos-table works!</p>
+
+<h3>TODOS TABLE</h3>
+
+<pre>
+  Damit Komponente 'app-todo' keinen Knoten im DOM bildet, wird sie als Direktive eingesetzt
+</pre>
+
+<table>
+  <tbody>
+    <tr app-todo *ngFor="let localtodo of todos" [todo]=localtodo></tr>
+    <!-- <tr app-todo *ngFor="let localtodo of todos" [todo]=localtodo *ngIf="showAll"></tr>
+    Fehler: Can't have multiple template bindings on one element. Use only one attribute prefixed with *ngtsc(-995002)
+   --></tbody>
+</table>
+
+<!-- <button>show only uncompleted</button> -->
+
+<!-- {{todos}} -->
