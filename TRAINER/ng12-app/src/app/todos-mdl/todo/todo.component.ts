@@ -1,18 +1,22 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Todo } from '../todos-table/todos-table.component';
 
 @Component({
-  selector: 'app-todo',
+  selector: '[app-todo]',
   templateUrl: './todo.component.html',
   styleUrls: ['./todo.component.css']
 })
 export class TodoComponent implements OnInit {
 
-  todo = {
+  @Input()
+  todo!: Todo;
+
+/*   todo = {
     userId: 1,
     id: 1,
     title: "delectus aut autem",
     completed: true
-  }
+  } */
 
   giveClass() {
     if (this.todo.completed) {
@@ -38,3 +42,7 @@ CSS-Klasse könnte aussehen
   }
 
 }
+function Init() {
+  throw new Error('Function not implemented.');
+}
+
