@@ -60,3 +60,13 @@ Erstellen Sie eine neue Komponente 'root'. Binden Sie diese in die Anwendung ans
 ## M007 | STRUCTURAL DIRECTIVES
 
 ## M008 | ATTRIBUTE DIRECTIVES
+
+## outputs
+
+## events + forms
+
+## pipes
+
+## httpclient + service + rxjs
+
+## Einsetzen im Server von Angular

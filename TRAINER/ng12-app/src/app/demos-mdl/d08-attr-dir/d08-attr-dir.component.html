@@ -1,0 +1,32 @@
+<h3>D08-ATTR-DIR works!</h3>
+<pre>
+  ändern nicht an der DOM-Struktur
+  bringen zusätzliche Funktionalität mit sich
+  wie Kontrolle über CSS-Stile oder Validität bei Formularen
+  ngStyle
+  ngClass
+  className
+  [style]
+  [class]
+  ngModel
+  ngForm
+</pre>
+
+<button (click)=wuerfeln()>wirf!</button>
+
+<!-- Option mit class._className_ -->
+<!-- <p [style.font-size.px]=getFontSize() [class.bingo]="zufallszahl == 6">{{zufallszahl}}</p> -->
+
+<h4>
+  Option mit ngClass und Map
+</h4>
+<pre>
+  Objekt Map für ngClass besteht aus Klassennamen und booleans
+</pre>
+<p [style.font-size.px]="getFontSize()" [ngClass]="diceClasses">{{zufallszahl}}</p>
+
+<h4>
+  ngIf - Element wird angezeigt, wenn Bedingung stimmt
+
+</h4>
+<p *ngIf="zufallszahl == 1">das hilft ihnen nicht viel. versuchen sie nochmal</p>
