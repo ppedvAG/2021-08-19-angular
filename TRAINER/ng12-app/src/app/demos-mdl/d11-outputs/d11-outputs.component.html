@@ -1,0 +1,11 @@
+<p>d11-outputs works!</p>
+<app-d11-outputs-child
+[time]=10
+(start)=handleStart()
+(tick)=handleTick($event)
+(end)=handleEnd($event)
+></app-d11-outputs-child>
+<p>{{startMessage}}</p>
+<p>{{tickMessage}}</p>
+<p>{{endMessage}}</p>
+

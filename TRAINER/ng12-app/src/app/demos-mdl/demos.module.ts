@@ -7,6 +7,7 @@ import { AppRoutingModule } from '../app-routing.module';
 import { D07StructDirComponent } from './d07-struct-dir/d07-struct-dir.component';
 import { D08AttrDirComponent } from './d08-attr-dir/d08-attr-dir.component';
 import { D09EventsComponent } from './d09-events/d09-events.component';
+import { D11OutputsComponent, D11OutputsComponentChild } from './d11-outputs/d11-outputs.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,9 @@ import { D09EventsComponent } from './d09-events/d09-events.component';
     D05LifecycleComponent,
     D07StructDirComponent,
     D08AttrDirComponent,
-    D09EventsComponent
+    D09EventsComponent,
+    D11OutputsComponent,
+    D11OutputsComponentChild
   ],
   imports: [
     CommonModule,
