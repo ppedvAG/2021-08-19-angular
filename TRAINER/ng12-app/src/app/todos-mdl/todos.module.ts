@@ -6,6 +6,7 @@ import { DateTimeComponent } from './date-time/date-time.component';
 import { TodosTableComponent } from './todos-table/todos-table.component';
 import { PwConfirmComponent } from './pw-confirm/pw-confirm.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -19,7 +20,8 @@ import { FormsModule } from '@angular/forms';
   ],
   imports: [
     CommonModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   exports: [
     OverviewTodosComponent
