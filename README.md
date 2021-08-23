@@ -4,27 +4,24 @@ Ein Kurs von PPEDV :rocket:
 
 ## M000 | WARMING UP
 
-- Folien: Greeter.pdf
+- folien: Greeter.pdf
 - commit: [m000 vorbereitung](https://github.com/ppedvAG/2021-08-19-angular/commit/2d657055085c44fdc619f393f843d22110d4b55b)
   
 ## M001 | GETTING STARTED
 
-- Folien: ANGULAR.pdf > getting started
-- Demo: [ng12-app/src/app/app.module.ts](TRAINER/ng12-app/src/app/app.module.ts)
-- Commit: [m001 create default app](https://github.com/ppedvAG/2021-08-19-angular/commit/e5f384452f947d6ed26cb4de98909018c637b321)
+- folien: ANGULAR.pdf > getting started
+- demo: [ng12-app/src/app/app.module.ts](TRAINER/ng12-app/src/app/app.module.ts)
+- commit: [m001 create default app](https://github.com/ppedvAG/2021-08-19-angular/commit/e5f384452f947d6ed26cb4de98909018c637b321)
 
 ## M002 | NG APP PROJECT
 
-- Folien: angular.pdf >
+- folien: angular.pdf >
   - project structure
   - ecosystem
   - ng tool
-- Demo:
-- Lab:
-- Commit: [m002 lab](https://github.com/ppedvAG/2021-08-19-angular/commit/eab000aef1f618110ee3610b560bda106e2265a4)
-
-Aufgabe:
-Erstellen Sie eine neue Komponente 'root'. Binden Sie diese in die Anwendung anstatt von der Komponente 'App' ein.
+- demo: [app.component.ts](TRAINER/ng12-app/src/app/root-mdl/appcomponent/app.component.ts)
+- lab: [root.component.ts](TRAINER/ng12-app/src/app/root-mdl/root/root.component.ts)
+- commit: [m002 lab](https://github.com/ppedvAG/2021-08-19-angular/commit/eab000aef1f618110ee3610b560bda106e2265a4)
 
 ## M003 | NG MODULE
 
@@ -94,7 +91,7 @@ Erstellen Sie eine neue Komponente 'root'. Binden Sie diese in die Anwendung ans
 - demo: [d11-outputs.component.ts](TRAINER/ng12-app/src/app/demos-mdl/d11-outputs/d11-outputs.component.ts)
 - commit: [m011 demo outputs](https://github.com/ppedvAG/2021-08-19-angular/commit/064a0b851b7ffc5c5c837ea3fe68d7ee7381bec0)
 
-## M012 | Debugging
+## M012 | DEBUGGING
 
 - folien: angular.pdf > debugging
 - demo: [launch.json](TRAINER/ng12-app/.vscode/launch.json)
@@ -108,7 +105,7 @@ Erstellen Sie eine neue Komponente 'root'. Binden Sie diese in die Anwendung ans
   - [d13-my-pipe.pipe.ts](TRAINER/ng12-app/src/app/demos-mdl/d13-pipes/d13-my-pipe.pipe.ts)
 - commit: [m013 demo pipes](https://github.com/ppedvAG/2021-08-19-angular/commit/c46074f7c4bb9e5b5463a06ec2c1a36850e7a532)
 
-## M014 | httpclient + service + rxjs
+## M014 | HTTPCLIENT + SERVICE + RXJS
 
 - folien: angular.pdf >
   - dependency injection
@@ -116,8 +113,9 @@ Erstellen Sie eine neue Komponente 'root'. Binden Sie diese in die Anwendung ans
   - httpclientmodule
   - rxjs
 - demo: [todos.service.ts](TRAINER/ng12-app/src/app/todos-mdl/todos.service.ts)
+- commit: [m014 demo service http rxjs](https://github.com/ppedvAG/2021-08-19-angular/commit/9bdaf6a899d81eb7da00179c293c3de8b77dcbda)
 
-## M015 | pwa & web workers
+## M015 | PWA & WEB WORKERS
 
 - folien:
   - angular.pdf > web workers
@@ -125,9 +123,6 @@ Erstellen Sie eine neue Komponente 'root'. Binden Sie diese in die Anwendung ans
 - demos:
   - [ngsw-config.json](TRAINER/ng12-app/ngsw-config.json)
   - [manifest.webmanifest](TRAINER/ng12-app/src/manifest.webmanifest)
+- commit: [pwa](https://github.com/ppedvAG/2021-08-19-angular/commit/c61559d19288a7b895c7a84f767c0fc6936c3c9b)
 
-## M016 | lazy loading
-
-## M017 | web workers
-
-- folien: pwa.pdf > wokers
+## M016 | LAZY LOADING
